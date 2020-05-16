@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lamg="en">
+<head>
+	<meta charset="UTF-8"> 
+	<title></title>
+	<link rel="stylesheet" href="Styles1.css">
+</head>
+<body>
+	<div class="container">
+	    <div class="header">
+	      <h1>Currency Converter</h1>
+	    </div>
+    <div class="date"></div>
+	    <ul class="currencies">
+	    	<div id="app">
+	    		<li class="currency">
+					<img src="http:/www.geonames.org/flags/l/fr.gif" class="flag">
+	    			<span class="currency-symbol">&#128;</span>
+	    			<label>EUR</label>
+					<input type="text" v-model="eur">
+				</li>	
+	    		<li class="currency base-currency">
+	    			<img src="http:/www.geonames.org/flags/l/us.gif" class="flag">
+	    			<span class="currency-symbol">&#36;</span>
+	    			<label>US</label>
+					<input type="text" v-model="us">
+				</li>
+				<li class="currency">
+					<img src="http:/www.geonames.org/flags/l/pl.gif" class="flag">
+	    			<span class="currency-symbol">&#122;</span>
+					<label>PLN</label>
+					<input type="text" v-model="pln">
+				</li>
+	    	</div>
+	    </ul>
+   
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="main1.js"></script>
+
+</body>
+</html>
